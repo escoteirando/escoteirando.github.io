@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "escoteirando"
+version = "0.1.0"
+description = ""
+authors = ["Guionardo Furlan <guionardo@gmail>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.4.2"
+mkdocs-minify-plugin = "^0.6.1"
+mkdocs-windmill = "^1.0.5"
+mkdocs-material = "^8.5.9"
+pymdown-extensions = "^9.8"
+mkdocs-build-plantuml-plugin = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
