@@ -1,6 +1,7 @@
 site_name: Escoteirando
 
 plugins:
+  - search:
   - minify:
       minify_html: true
       minify_js: true
@@ -19,7 +20,7 @@ plugins:
       output_format: "svg" # or "png"
       diagram_root: "docs/diagrams" # should reside under docs_dir
       output_folder: "out"
-      input_folder: "docs"
+      input_folder: "src"
       input_extensions: "" # comma separated list of extensions to parse, by default every file is parsed
 
 theme:

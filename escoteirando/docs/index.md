@@ -8,7 +8,7 @@ Domínio principal: escoteirando.net.br
 
 ## Casos de Uso Portal Escoteirando
 
-![UC](escoteirando_portal_uc.svg)
+![UC](diagrams/out/escoteirando_portal_uc.svg)
 
 
 ### Login/Logout
