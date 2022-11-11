@@ -2,13 +2,6 @@
 
 Escoteirando é um conjunto de aplicações para apoio do desenvolvimento e compartilhamento de atividades escoteiras.
 
-![Architecture](diagrams/out/Architecture.svg)
-
-Domínio principal: escoteirando.net.br
-
-## Casos de Uso Portal Escoteirando
-
-![UC](diagrams/out/escoteirando_portal_uc.svg)
 
 
 ### Login/Logout
@@ -27,21 +20,7 @@ Tipo (alcatéia, tropa, clã), nome
 
 Nome, lista de jovens
 
-## Business Inteligence
 
-### Análise histórica do jovem
-
-A partir das conquistas, é feita uma análise do período de permanência na seção, o tempo restante até a passagem para o próximo ramo e a comparação entre as progressões/conquistas alcançadas e seu período esperado dentro do segmento.
-
-Esses dados podem predizer as chances de alcançar o término da progressão completa na seção e orientar o caminho.
-
-### Timeline de conquistas da seção
-
-Análise das conquistas gerais podem dar indicações de conquistas que ainda precisam ser exploradas e que podem ser objetivo das atividades.
-
-### Timeline de conquistas do jovem
-
-Quadro de progressões e conquistas alcançadas.
 
 ### Cadastro de atividades
 
@@ -57,26 +36,8 @@ Cadastro de conjuntos de atividades que compõe um encontro.
 
 ### Ferramenta de Busca
 
-Busca de atividades, por nome, tipo, descrição, progressção, etc.
+Busca de atividades, por nome, tipo, descrição, progressão, etc.
 
 ### Sistema de pontuação de atividades
 
 As atividades podem receber "curtidas" e comentários de outros usuários, de forma a termos um ranking de boas atividades e uma pontuação para os autores de atividades melhor classificadas.
-
-
-
-
-
-
-
-
-
-## Projetos
-
-* [Mappa Proxy](https://github.com/escoteirando/mappa-proxy) -> mappa.escoteirando.net.br
-
-## Links
-
-* https://github.com/plantuml-stdlib/C4-PlantUML
-* https://dev.to/mfbmina/enriquecendo-requests-com-traefik-f77
-* https://gocopper.dev/

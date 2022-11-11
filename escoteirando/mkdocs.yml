@@ -1,5 +1,10 @@
 site_name: Escoteirando
 
+extra_javascript:
+  - js/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 plugins:
   - search:
   - minify:
@@ -32,8 +37,12 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.highlight
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_div_format
+        - name: arithmatex
+          class: arithmatex
