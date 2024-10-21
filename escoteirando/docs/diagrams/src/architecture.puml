@@ -13,6 +13,7 @@ Container(mappa,"mAppa","nodejs","mappa.escoteiros.org.br")
 Container(auth,"Autenticação não-UEB","nodejs","em definição")
 Container(home, "Escoteirando Dev Home", "VueJS", "Development information portal", $sprite="vuejs")
 Container(portal, "Escoteirando Portal","VueJS", "github.com/escoteirando/escoteirando-portal", $sprite="vuejs")
+Container(auth, "Serviço de autenticação/autorização","GoLang",$sprite="go")
 
 Container(mappa_proxy, "Mappa Proxy", "GoLang","https://mappa-proxy.fly.dev/", $sprite="go")
 
